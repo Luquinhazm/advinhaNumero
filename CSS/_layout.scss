@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $baby-powder;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    gap: 24px;
+    border-radius: 12px;
+}
+
+.infos-jogo{
+    padding: 12px;
+    h1{
+        margin-bottom: 18px;
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    .envioPalpite{
+        width: 100px;
+    }
+
+}
+
+.campoPalpite{
+    border: 2px solid $dark-purple;
+    border-radius: 6px;
+    height: 32px;
+    width: 120px;
+    padding: 8px;
+}
+
+.resultadoParas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.ultimoResultado{
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+
+

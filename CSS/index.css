@@ -1,17 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap");
 html {
-  font-family: sans-serif;
+  font-family: 'inter', sans-serif;
 }
 
-body {
-  width: 50%;
-  max-width: 800px;
-  min-width: 480px;
-  margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
 }
 
-.lastResult {
-  color: white;
-  padding: 3px;
+input {
+  border: none;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -22,5 +23,118 @@ input[type=number] {
   -moz-appearance: textfield;
   -webkit-appearance: textfield;
           appearance: textfield;
+}
+
+body {
+  max-width: 600px;
+  min-width: 300px;
+  width: 75%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  background-color: #242038ff;
+}
+
+.btn {
+  background-color: #748386ff;
+  color: #fdfffcff;
+  height: 32px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #fdfffcff;
+}
+
+.btnReinicio {
+  margin: 24px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fdfffcff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 80vh;
+  gap: 24px;
+  border-radius: 12px;
+}
+
+.infos-jogo {
+  padding: 12px;
+}
+
+.infos-jogo h1 {
+  margin-bottom: 18px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+.form .envioPalpite {
+  width: 100px;
+}
+
+.campoPalpite {
+  border: 2px solid #242038ff;
+  border-radius: 6px;
+  height: 32px;
+  width: 120px;
+  padding: 8px;
+}
+
+.resultadoParas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.ultimoResultado {
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
 }
 /*# sourceMappingURL=index.css.map */

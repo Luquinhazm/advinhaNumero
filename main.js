@@ -1,4 +1,4 @@
-const numAleatorio = Math.floor(Math.random()* 100) + 1
+let numAleatorio = Math.floor(Math.random() * 100) + 1
 
 const palpites = document.querySelector('.palpites')
 const ultimoResultado = document.querySelector('.ultimoResultado')
@@ -47,6 +47,7 @@ function configFimDeJogo() {
     campoPalpite.disabled = true;
     envioPalpite.disabled = true;
     botaoReinicio = document.createElement('button');
+    botaoReinicio.classList.add('btn', 'btnReinicio')
     botaoReinicio.textContent = 'Iniciar novo jogo';
     document.body.appendChild(botaoReinicio);
     botaoReinicio.addEventListener('click', reiniciarJogo);
@@ -69,5 +70,5 @@ function configFimDeJogo() {
   
     ultimoResultado.style.backgroundColor = 'white';
   
-    numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+    numAleatorio = Math.floor(Math.random()* 100) + 1;
   }

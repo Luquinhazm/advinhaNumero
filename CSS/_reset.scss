@@ -1,23 +1,40 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');
+
+
 html {
-    font-family: sans-serif;
-  }
-  body {
-    width: 50%;
-    max-width: 800px;
-    min-width: 480px;
-    margin: 0 auto;
-  }
-  .lastResult {
-    color: white;
-    padding: 3px;
-  }
-
-  input[type=number]::-webkit-inner-spin-button { 
--webkit-appearance: none;
-
+  font-family: 'inter', sans-serif;
 }
-input[type=number] { 
--moz-appearance: textfield;
-appearance: textfield;
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+input{
+  border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+body {
+  max-width: 600px;
+  min-width: 300px ;
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: $dark-purple;
 }

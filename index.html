@@ -12,21 +12,26 @@
   </head>
 
   <body>
+      <main>
 
-        <h1>Jogo adivinhe o número</h1>
-
-        <p>Nós selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite foi muito alto ou muito baixo.</p>
+        <div class="infos-jogo">
+          <h1>Jogo adivinhe o número</h1>
+          <p>Nós selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite foi muito alto ou muito baixo.</p>
+        </div>
 
         <div class="form">
-        <label for="campoPalpite">Digite seu palpite: </label><input type="number" autocomplete="off" min="1" max="100" id="campoPalpite" class="campoPalpite">
-        <input type="submit" value="Enviar palpite" class="envioPalpite">
+          <label for="campoPalpite">Digite seu palpite: </label>
+          <input type="number" autocomplete="off" id="campoPalpite" class="campoPalpite">
+          <input type="submit" value="Enviar palpite" class="envioPalpite btn">
         </div>
 
-        <div class="resultadoParas">
-        <p class="palpites"></p>
-        <p class="ultimoResultado"></p>
-        <p class="baixoOuAlto"></p>
+        <div class="resultadoParas" id="pResultados">
+          <p class="palpites"></p>
+          <p class="ultimoResultado"></p>
+          <p class="baixoOuAlto"></p>
         </div>
+
+      </main>
 
     </body>
 
