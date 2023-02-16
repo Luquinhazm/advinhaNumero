@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap");
 html {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
 }
 
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: black;
 }
 
@@ -30,30 +29,21 @@ body {
   min-width: 300px;
   width: 95%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  background-color: #242038ff;
+  background-color: #242038;
 }
 
 .btn {
-  background-color: #748386ff;
-  color: #fdfffcff;
+  background-color: #748386;
+  color: #fdfffc;
   height: 32px;
   padding: 8px;
   border-radius: 12px;
-  border: 1px solid #fdfffcff;
+  border: 1px solid #fdfffc;
 }
 
 .btnReinicio {
@@ -61,22 +51,14 @@ body {
 }
 
 main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #fdfffcff;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdfffc;
+  flex-direction: column;
   text-align: center;
-  height: 80vh;
+  max-height: 70vh;
+  height: 70vh;
   gap: 18px;
   padding: 6px;
   border-radius: 12px;
@@ -85,31 +67,22 @@ main {
 .infos-jogo {
   padding: 12px;
 }
-
 .infos-jogo h1 {
   margin-bottom: 18px;
 }
 
 .form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 16px;
 }
-
 .form .envioPalpite {
   width: 100px;
 }
 
 .campoPalpite {
-  border: 2px solid #242038ff;
+  border: 2px solid #242038;
   border-radius: 6px;
   height: 32px;
   width: 120px;
@@ -117,16 +90,9 @@ main {
 }
 
 .resultadoParas {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 8px;
   padding: 12px;
   margin-bottom: 8px;
@@ -137,5 +103,4 @@ main {
   color: white;
   font-weight: bold;
   border-radius: 6px;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
